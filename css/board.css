@@ -1,0 +1,122 @@
+#root {
+	width:450px;
+	margin:0 auto;
+	height:auto;
+}
+canvas {
+	border:1px solid #c2c2c2;
+	box-shadow: 0px 0px 5px #dddddd;
+}
+.round {
+	border-radius:13px;
+	height:15px;
+	width:15px;
+	float:left;
+	margin:2px 2px;
+	cursor:pointer;
+	border:3px solid #fff;
+	box-shadow:0px 2px 2px #919191;
+	-moz-border-radius:13px;
+	-moz-box-shadow:0px 2px 2px #919191;
+	-webkit-border-radius:13px;
+	-webkit-box-shadow:0px 2px 2px #919191;
+}
+.blue {
+	background:#39F;
+}
+.red {
+	background:#c32c25;
+}
+.black {
+	background:#000;
+}
+.green {
+	background:#427d29;
+}
+.pink {
+	background:#e95e97;
+}
+.purple {
+	background:#491e77;
+}
+.brown {
+	background:#8c4316;
+}
+.aqaGreen {
+	background:#3d81a8;
+}
+.dash_board {
+	width:100%;
+	background:#dfdfdf;
+	border:1px solid #dfdfdf;
+	overflow:auto;
+}
+.colors {
+	float:right;
+	width:100px;
+	height:50px;
+	padding:2px 2px;
+}
+.current {
+	width:20px;
+	height:20px;
+	border:4px solid #fff;
+	box-shadow:0px 2px 2px #919191;
+	float:right;
+	position:relative;
+	background:#000;
+	top:12px;
+	left:-10px;
+	-webkit-box-shadow:0px 2px 2px #919191;
+}
+.tools {
+	float:left;
+	width:100px;
+	height:auto;
+	padding:15px 10px 13px 10px;
+	font:normal 10px Arial, Helvetica, sans-serif;
+	color:#333;
+	text-align:center;
+}
+.tools > div {
+	float:left;
+	width:26px;
+	height:26px;
+	margin-right:6px;
+}
+.pen {
+	background:#dfdfdf url(images/pen.jpg) left center no-repeat;
+}
+.erase {
+	background:#dfdfdf url(images/erase.jpg) right center no-repeat;
+}
+.clear {
+	background:#dfdfdf url(images/delete.jpg) right center no-repeat;
+}
+.pen:hover {
+	background:#dfdfdf url(images/pen.jpg) left center no-repeat!important;
+}
+.erase:hover {
+	background:#dfdfdf url(images/erase.jpg) left center no-repeat!important;
+}
+.clear:hover {
+	background:#dfdfdf url(images/delete.jpg) left center no-repeat!important;
+}
+.size {
+	width:100px;
+	float:left;
+	padding:8px 12px 0 45px;
+	font:normal 10px Arial, Helvetica, sans-serif;
+	color:#333;
+	text-align:center;
+}
+.cursor {
+	cursor:pointer;
+}
+.size > div {
+	width:20px;
+	padding:5px 6px;
+	font: bold 16px Arial, Helvetica, sans-serif;
+	float:left;
+	text-align:center;
+}

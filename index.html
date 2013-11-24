@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>HTML5 Drawing board</title>
+<link rel="stylesheet" href="css/board.css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/board.js"></script>
+</head>
+
+<body >
+<!--onload="draw()"-->
+<div id="root">
+  <canvas id="canvas" width="450" height="450">Canvas not support for this browser</canvas>
+  <div class="dash_board">
+    <div class="tools">
+      <div class="pen"> </div>
+      <div class="erase"> </div>
+      <div class="clear"> </div>
+    </div>
+    <div class="size">
+      <div class="cursor dic">-</div>
+      <div id="brushSize">10</div>
+      <div class="cursor inc">+</div>
+      Brush size </div>
+    <div class="colors">
+      <div class="round black"></div>
+      <div class="round red"></div>
+      <div class="round blue"></div>
+      <div class="round brown"></div>
+      <div class="round aqaGreen"></div>
+      <div class="round purple"></div>
+      <div class="round pink"></div>
+      <div class="round green"></div>
+    </div>
+    <div class="current inc"> </div>
+  </div>
+</div>
+</body>
+</html>
